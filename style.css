@@ -1,0 +1,588 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+
+    color: rgb(0, 0, 0);
+    position: relative;
+}
+
+.nav {
+    padding: 1.4vh;
+    align-items: center;
+    background-color: #C57D55;
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+}
+
+.fields .field a {
+    font-size: 1.1vw;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.fields .field a:hover {
+    color: #ff5e00;
+}
+
+.login {
+    align-items: center;
+}
+
+.login i {
+    font-size: 1.5vw;
+}
+.login i:hover {
+    color: #ff5e00;
+}
+
+.login .log a {
+    font-size: 1.2vw;
+}
+.login-page{
+    visibility: hidden;
+    height: 35vw;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    border-radius: 1vw;
+    transform: translate(-50%,-50%);
+    background-color: #ff5e00;
+    z-index: 9999;
+}
+.login-page .all-inputs{
+    width: 85%;
+    margin: 5vw auto 1vw;
+}
+.login-page .all-inputs h6{
+    margin-top: 1vw;
+    margin-bottom: .1vw;
+     font-size: 1.2vw;
+}
+.login-page .all-inputs input{
+    width: 100%;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+}
+.login-page .chack-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page .chack-box p{
+font-size:1vw;
+margin-top: 1vw;
+
+}
+.login-page .btan{
+    display: flex;
+    justify-content: center;
+}
+.login-page .btan button{
+    background-color: #000000;
+    color: white;
+    font-size: 1vw;
+    padding: .6vw 3vw;
+    border-radius: 50vw;
+    border: none;
+}
+.menu{
+    visibility: hidden;
+    display: none;
+    background-color: black;
+    position: fixed;
+    padding: 3vw 10vw;
+}
+.menu .menu-field{
+    border-bottom: 1px solid rgb(190, 190, 190);
+    margin-top: 1vw;
+    padding: .5vw;
+}
+.menu .menu-field  a{
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+    
+
+} 
+.login .img {
+    width: 2.7VW;
+    height: 2.7VW;
+    overflow: hidden;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+}
+
+#home {
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 10vw;
+}
+
+.lending {
+    min-height: 60vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5vw;
+}
+
+.texts h1 {
+    width: 50vw;
+    font-size: 4vw;
+    font-weight: 800;
+    color: #ff5e00;
+}
+
+.texts .ims {
+    font-size: 1.5vw;
+    font-weight: 500;
+}
+
+.texts .pgms {
+    font-size: 1.8vw;
+    font-weight: 700;
+}
+
+.btns button {
+    color: white;
+    font-size: 1.2vw;
+    border-radius: 10vw;
+    background-color: rgb(0, 0, 0);
+    padding: 1vw 2vw;
+    border: 2px solid rgb(252, 251, 251);
+}
+.btns button:hover {
+    transition: all 1s;
+    background-color: #ff5e00;
+}
+.right-box .img {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.right-box .img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.chouse {
+    margin-top: 5vw;
+    padding: 5vw 0;
+}
+
+.chouse h3 {
+    font-size: 2vw;
+    text-align: center;
+    color: #ff5e00;
+}
+
+.chouse p {
+    font-size: 1.3vw;
+    text-align: center;
+}
+
+.chouse .chouse-text {
+    font-size: 1.2vw;
+    margin: auto;
+}
+
+.catagery {
+    width: 90%;
+    gap: 3vw;
+    margin: auto;
+    margin-top: 4vw;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.catagery .phone{
+    width: 30%;
+    background-color: #d8d6d5;
+    padding: 1vw;
+    border-radius: 1vw;
+}
+.catagery .phone-icon,
+.catagery .data-icon,
+.catagery .code-icon {
+    width: 4vw;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw;
+    border-radius: 50%;
+}
+
+.catagery .phone-icon {
+    background-color: #2ecec1;
+}
+
+.catagery .data-icon {
+    background-color: #7d0de6;
+}
+
+.catagery .code-icon {
+    background-color: #ff00ff;
+}
+.catagery i{
+    font-size: 2vw;
+}
+.catagery h4 {
+    font-size: 2vw;
+    margin-top: 3vw;
+    text-align: start;
+    color: #000000;
+}
+
+.catagery .phone p {
+    width: 100%;
+    margin-top: 3vw;
+    text-align: start;
+
+}
+
+#about {
+    min-height: 100vh;
+    padding: 5vw;
+}
+
+
+
+#about h3 {
+    font-size: 2vw;
+    width: 100%;
+    text-align: center;
+    color: #ff5e00;
+}
+
+#about p {
+    font-size: 1.2vw;
+    padding-top: 2vw;
+}
+
+.customers {
+    justify-content: space-between;
+    margin-top: 2vw;
+}
+
+.customers .left {
+    justify-content: space-between;
+}
+
+.customers .left .left-imgs,
+.customers .left .right-imgs {
+    width: 47%;
+}
+
+.customers .left .left-imgs {
+    margin-top: 4vw;
+}
+
+.img1 {
+    width: 100%;
+    height: 25vw;
+    margin-top: 2vw;
+    border-radius: 1vw;
+    overflow: hidden;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.customers .right h4 {
+    margin-top: 2vw;
+    font-size: 1.9vw;
+}
+
+.customers .right p {
+    font-size: 1.2vw;
+}
+
+.customers .right .rent .murg h6{
+    font-size: 1.5vw;
+}
+.customers .right .rent .murg i {
+    font-size: 3vw;
+}
+
+.customers .right .rent p {
+    font-size: 1.2vw;
+
+}
+
+#feature {
+    width: 100%;
+}
+
+#feature h3{
+    color: #ff5e00;
+    font-size: 3vw;
+}
+
+.feature-card {
+    border-radius: 1vw;
+    padding: 1vw;
+    width: 90%;
+    padding-left: 3vw;
+    margin: auto;
+    margin-top: 9vw;
+    border-left: 5px solid #ff5e00;
+    border-right: 5px solid #ff5e00;
+}
+
+
+.left-icon i {
+    font-size: 3vw;
+    color: #ff5e00;
+}
+
+.feature-text p {
+    font-size: 1.2vw;
+}
+.feature-text h5{
+    font-size: 1.9vw;
+}
+.service-page{
+    margin-top: 7vw;
+}
+.service-page h3{
+    font-size: 3vw;
+    color: #ff5e00;
+}
+.service-wraper{
+    flex-wrap: wrap;
+    justify-content: center ;
+}
+.service-card{
+    width: 30%;
+    padding: 1vw;
+    border-radius: 1vw;
+    background-color: #d1cece;
+ }
+.service-card .img-card{
+    height: 15vw;
+ }
+.service-card h5{
+   color: #000000;
+   font-size: 1.8vw;
+}
+.service-card p{
+    color: rgb(0, 0, 0);
+    font-size: 1vw;
+ }
+#contect{
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1vw;
+    margin-top: 5vw;
+}
+.never{
+    height: 34vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff5e00;
+    padding: 10vw 2vw;
+    font-size:3.3vw;
+    font-weight: 700;
+}
+
+.details{
+    min-height: 34vw;
+    padding-top: 2.5vw;
+    background-color: #161515;
+}
+.details  .margin {
+    margin-top: 3vw;
+}
+.details .full-name span,.email span{
+    color: #ff5e00;
+}
+.details .full-name .first,.last ,.email {
+    border-bottom: 2px solid #ff5e00;
+}
+.details .full-name input,.email input{
+    border: none;
+    width: 100%;
+    color: white;
+}
+.sub button{
+   margin-top: 3vw;
+   padding: 1vw ;
+   
+}
+.sub button:hover{
+    background-color: #ff5e00;
+    border: none;
+    transition: 1s;
+   
+}
+
+.copy{
+    padding: 2vw 0;
+    text-align: center;
+    font-size: 1vw;
+    background-color: #ff5e00;
+}
+
+@media (max-width: 1023px) {
+    .nav .logo {
+        font-size: 3vw;
+    }
+.menu{
+    display: block;
+}
+    .title {
+        margin-top: 5vw;
+    }
+    .login-page{
+        height: 80vw;
+       
+    }
+    .login-page .all-inputs{
+        width: 85%;
+        margin: 8vw auto 6vw;
+    }
+    .login-page .all-inputs h6{
+        margin-top: 3vw;
+        margin-bottom: .1vw;
+        font-size: 2vw;
+    }   
+    .login-page .chack-box p{
+    font-size:2vw;
+    margin-top: 1.2vw;
+    }
+    .login-page .btan{
+        margin-top: 3vw;
+    }
+    .login-page .btan button{
+        background-color: #000000;
+        color: white;
+        font-size: 2.3vw;
+        padding: 1vw 5vw;
+        border-radius: 50vw;
+        border: none;
+    }
+    .left-box .texts .ims {
+        font-size: 3vw;
+    }
+
+    .left-box .texts .pgms {
+        font-size: 4vw;
+    }
+
+    .right-box {
+        margin-top: 4vw;
+    }
+
+    .btns button {
+        font-size: 2.5vw;
+    }
+
+    .texts h1 {
+        width: 100%;
+        font-size: 6vw;
+    }
+    .customers .right .rent .murg i {
+        font-size: 5vw;
+    }
+
+    .chouse h3 {
+        font-size: 4vw;
+
+    }
+
+    .chouse p {
+        font-size: 2.5vw;
+    }
+
+    .chouse .chouse-text {
+        font-size: 2.5vw;
+    }
+
+    .catagery .phone .phone-icon,
+    .catagery .phone .data-icon,
+    .catagery .phone .code-icon {
+        width: 6vw;
+        height: 6vw;
+
+    }
+    .catagery .phone{
+        width: 100%;
+        margin-top: 2vw;
+        padding: 4vw;
+    }
+    .catagery .phone h4 {
+        font-size: 4vw;
+    }
+
+    #about h3{
+        font-size: 4vw;
+    }
+    #about p{
+        font-size: 2.5vw;
+    }
+    #about .customers .right h4{
+        font-size: 4vw;
+    }
+    #about .customers .right p{
+        font-size: 2.5vw;
+    }
+    #feature h3{
+        font-size: 4vw;
+    }
+    .feature-card{
+        border-left: 3px solid #ff5e00;
+        border-right: 3px solid #ff5e00;
+    }
+    #feature .left-icon i {
+        font-size: 7vw;
+    }
+    #feature .feature-text p {
+        font-size: 2.5vw;
+    }
+    .service-card {
+        width: 100%;
+     }
+    .service-page h3{
+        font-size: 4vw;
+     }
+    .service-card .img-card{
+        height: 45vw;
+     }
+    .service-card h5{
+        font-size: 5vw;
+     }
+     .service-card p{
+         font-size: 2.5vw;
+      }
+    .details .full-name p{
+      font-size: 2vw;
+    }
+    .details .email p{
+        font-size: 2vw;
+      }
+    .sub button{
+        font-size: 2vw;
+    }
+}

@@ -1,0 +1,26 @@
+
+/* border */
+.ol-none{
+    outline: none;
+}
+.bg-trans{
+    background: transparent;
+}
+.b-1-white{
+    border: 1px solid white;
+}
+.border-none{
+    border: none;
+}
+
+.td-none{
+    text-decoration: none;
+}
+.c-pointer{
+    cursor: pointer;
+}
+
+/* gap */
+.gap-1vw{
+    gap: 2vw;
+}

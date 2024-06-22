@@ -1,0 +1,26 @@
+{
+	"folders": [
+		{
+			"name": "Johan_Michel",
+			"path": "../bootstrap/Johan_Michel"
+		},
+		{
+			"name": "Onmyscreen",
+			"path": "../bootstrap/Onmyscreen"
+		},
+		{
+			"name": "Noelle",
+			"path": "../bootstrap/Noelle"
+		},
+		{
+			"name": "Saalo Production",
+			"path": "../Saalo Production/Saalo Production"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PG software managment"
+	}
+}
